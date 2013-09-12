@@ -28,7 +28,7 @@ header h1, h2, h3,h4{font-family: 'Anton', sans-serif;;font-size:2.25em;color:#6
 #services #wd{width:100%;margin-left:10%;margin-top:20px;padding-right:0.078%;}
 /*projects*/
 #projects{width:100%;background-color:#F2F5BD;padding-top:10px;padding-bottom:100px;margin-top:20px;}
-.placeholder{width:23.434%;height:300px;background-color:#fff;margin-top:50px;margin-left:2.343%;display:inline-block;}
+.placeholder{width:300px;height:300px;background-color:#fff;margin-top:50px;margin-left:2.343%;display:inline-block;}
 #projects h3{margin-right:45%;margin-top:125px;}
 /*About Me*/
 #about_me{width:100%;background-color:#594F4F;padding-top:100px;padding-bottom:100px;margin-top:150px;}

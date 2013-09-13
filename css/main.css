@@ -11,9 +11,9 @@ body{width:1280px;background-color:#D9CCC5;}
 #main-container{max-width:90%;}
 /*Navigation*/
 #main-nav{height:110px;margin-top:50px;}
-nav{height:110px;width:40%;float:left;clear:none;margin-left:25%;}
+nav{height:110px;width:40%;float:left;clear:none;margin-left:32%;}
 nav ul{list-style-type:none;}
-nav li{color:#fff;font-size:.875em;font-family: 'Anton', sans-serif;display:inline;margin-left:3.90625%;}
+nav li{color:#fff;font-size:1em;font-family: 'Anton', sans-serif;display:inline;margin-left:3.90625%;}
 a{text-decoration: none; color:#FFF; font-size:.875em;}
 a:active{border-bottom:#60A69F 0.039% solid;}
 /*Summary*/
@@ -36,8 +36,8 @@ header h1, h2, h3,h4{font-family: 'Anton', sans-serif;;font-size:2.25em;color:#6
 /*Contact Me*/
 #contact_me{float:left;margin-left:36%;width:100%;margin-top:20px;margin-bottom:100px;}
 form{width:600px;height:390px;padding-left:10px;box-shadow:none;margin-bottom:10px;}
-input.cont-input{width:33.333%;padding-left:10px;padding-top:20px;padding-bottom:20px;margin-top:20px;background-color:#60A69F;border:none;}
+input.cont-input{width:60%;padding-left:10px;padding-top:20px;padding-bottom:20px;margin-top:20px;background-color:#60A69F;border:none;}
 .cont-input.message{padding-bottom:250px;background-color:#60A69F;border:none;margin-top:20px;}
-#btn{width:31.25%;background-color:#594F4F;padding-top:20px;padding-bottom:20px;margin-top:20px;border:none;}
+#btn{width:62%;background-color:#594F4F;padding-top:20px;padding-bottom:20px;margin-top:20px;border:none;}
 /*Footer navigation*/
 footer{width:100%;float:left;margin-top:100px;margin-left:3.906%;}

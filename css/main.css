@@ -17,7 +17,7 @@ nav li{color:#fff;font-size:.875em;font-family: 'Anton', sans-serif;display:inli
 a{text-decoration: none; color:#FFF; font-size:.875em;}
 a:active{border-bottom:#60A69F 0.039% solid;}
 /*Summary*/
-#summ{background-color:#D98179;width:100%;padding-bottom:480px;}
+#summ{background-color:#D98179;width:100%;padding-bottom:480px;padding-rigth:100%;}
 #logo{width:15.625%height:200px;float:right;clear:left;margin-top:25px;margin-right:45.5%;}
 #summ article{width:auto;float:left;font-family: 'Anton', sans-serif;;font-size:1.5em;color:#FFF;margin-left:3.90625px;margin-top:25px;}
 /*Services*/

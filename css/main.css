@@ -17,17 +17,17 @@ nav li{color:#fff;font-size:.875em;font-family: 'Anton', sans-serif;display:inli
 a{text-decoration: none; color:#FFF; font-size:.875em;}
 a:active{border-bottom:#60A69F 0.039% solid;}
 /*Summary*/
-#summ{background-color:#D98179;width:100%;padding-bottom:480px;padding-right:300px;}
+#summ{background-color:#D98179;width:100%;padding-bottom:480px;padding-left:300px;}
 #logo{width:15.625%height:200px;float:right;clear:left;margin-top:25px;margin-right:45.5%;}
 #summ article{width:auto;float:left;font-family: 'Anton', sans-serif;;font-size:1.5em;color:#FFF;margin-left:3.90625px;margin-top:25px;}
 /*Services*/
-#services{width:100%;margin-bottom:600px;padding-right:300px;}
+#services{width:100%;margin-bottom:600px;padding-left:300px;}
 header h1, h2, h3,h4{font-family: 'Anton', sans-serif;;font-size:2.25em;color:#60A69F;float:right;}
 #services header{float:left;margin-left:46%;}
 #gd, #wd, #wdes{float:left;}
 #services #wd{width:100%;margin-left:10%;margin-top:20px;padding-right:0.078%;}
 /*projects*/
-#projects{width:100%;background-color:#F2F5BD;padding-top:10px;padding-bottom:100px;margin-top:20px;padding-right:300px;}
+#projects{width:100%;background-color:#F2F5BD;padding-top:10px;padding-bottom:100px;margin-top:20px;padding-left:300px;}
 .placeholder{width:300px;height:300px;background-color:#fff;margin-top:50px;margin-left:2.343%;display:inline-block;}
 #projects h3{margin-right:45%;margin-top:125px;}
 /*About Me*/

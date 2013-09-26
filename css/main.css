@@ -11,6 +11,7 @@ body{width:1280px;background-color:#D9CCC5;}
 #main-container{max-width:90%;}
 /*Navigation*/
 #main-nav{height:110px;margin-top:50px;}
+<<<<<<< HEAD
 nav{height:110px;width:40%;float:left;clear:none;margin-left:36%;}
 nav ul{list-style-type:none;}
 nav li{color:#fff;font-size:1.5em;font-family: 'Anton', sans-serif;display:inline;margin-left:3.90625%;}
@@ -22,11 +23,25 @@ a:active{border-bottom:#60A69F 0.039% solid;}
 #summ article{width:auto;float:left;font-family: 'Anton', sans-serif;font-size:1.5em;color:#FFF;margin-left:3.90625px;margin-top:25px;}
 /*Services*/
 #services{width:100%;margin-bottom:600px;padding-left:100px;padding-right:100px;}
+=======
+nav{height:110px;width:40%;float:left;clear:none;margin-left:32%;}
+nav ul{list-style-type:none;}
+nav li{color:#fff;font-size:1em;font-family: 'Anton', sans-serif;display:inline;margin-left:3.90625%;}
+a{text-decoration: none; color:#FFF; font-size:.875em;}
+a:active{border-bottom:#60A69F 0.039% solid;}
+/*Summary*/
+#summ{background-color:#D98179;width:100%;padding-bottom:480px;}
+#logo{width:15.625%height:200px;float:right;clear:left;margin-top:25px;margin-right:45.5%;}
+#summ article{width:auto;float:left;font-family: 'Anton', sans-serif;;font-size:1.5em;color:#FFF;margin-left:3.90625px;margin-top:25px;}
+/*Services*/
+#services{width:100%;margin-bottom:600px;}
+>>>>>>> 70475bbe72fb0b539f1f5e4cf9659ff89b3642a5
 header h1, h2, h3,h4{font-family: 'Anton', sans-serif;;font-size:2.25em;color:#60A69F;float:right;}
 #services header{float:left;margin-left:46%;}
 #gd, #wd, #wdes{float:left;}
 #services #wd{width:100%;margin-left:10%;margin-top:20px;padding-right:0.078%;}
 /*projects*/
+<<<<<<< HEAD
 #projects{width:100%;background-color:#F2F5BD;padding-top:10px;padding-bottom:100px;margin-top:20px;padding-left:100px;padding-right:150px;}
 .placeholder{width:300px;height:300px;padding:5px;background-color:#60A69F;margin-top:50px;margin-left:30px;display:inline-block;}
 #projects h3{margin-right:45%;margin-top:125px;}
@@ -35,6 +50,16 @@ header h1, h2, h3,h4{font-family: 'Anton', sans-serif;;font-size:2.25em;color:#6
 #about_me p{margin-left:30px;width:auto;margin-bottom:50px;font-family: 'Anton', sans-serif;font-size:1.5em;color:#60A69F;}
 /*Contact Me*/
 #contact_me{float:left;width:100%;margin-top:20px;margin-bottom:100px;padding-left:100px;padding-right:100px;}
+=======
+#projects{width:100%;background-color:#F2F5BD;padding-top:10px;padding-bottom:100px;margin-top:20px;}
+.placeholder{width:300px;height:300px;background-color:#fff;margin-top:50px;margin-left:2.343%;display:inline-block;}
+#projects h3{margin-right:45%;margin-top:125px;}
+/*About Me*/
+#about_me{width:100%;background-color:#594F4F;padding-top:100px;padding-bottom:100px;margin-top:150px;}
+#about_me p{margin-left:3.906%;width:auto;margin-bottom:50px;font-family: 'Anton', sans-serif;;font-size:1.5em;color:#60A69F;}
+/*Contact Me*/
+#contact_me{float:left;margin-left:36%;width:100%;margin-top:20px;margin-bottom:100px;}
+>>>>>>> 70475bbe72fb0b539f1f5e4cf9659ff89b3642a5
 form{width:600px;height:390px;padding-left:10px;box-shadow:none;margin-bottom:10px;}
 input.cont-input{width:60%;padding-left:10px;padding-top:20px;padding-bottom:20px;margin-top:20px;background-color:#60A69F;border:none;}
 .cont-input.message{padding-bottom:250px;background-color:#60A69F;border:none;margin-top:20px;}

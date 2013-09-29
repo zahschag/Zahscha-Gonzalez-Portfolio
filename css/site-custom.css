@@ -10,7 +10,7 @@ Color Swatches:
 
 body{
 	font-family: actor, sans-serif;
-	max-width: 1280px;
+	max-width:100%;
 	background-color:#D9CCC5;
 }
 #main-container{

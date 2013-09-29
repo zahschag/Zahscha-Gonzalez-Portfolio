@@ -1,0 +1,156 @@
+/**************
+Color Swatches:
+
+#594F4F //Brown
+#60A69F //Aqua
+#F2F5BD //Cream
+#D9CCC5 //Muted Cream
+#D98179 // Muted red
+********************/
+
+body{
+	font-family: actor, sans-serif;
+	max-width: 1800px;
+	background-color:#D9CCC5;
+}
+#main-container{
+	max-width: 50%;
+	position:fixed;
+}
+nav{
+	height:auto !important;
+	width: 50%;
+	margin-left:20%;
+
+}
+nav ul{ 
+	list-style-type: none;
+}
+nav li{
+	display:inline;
+	color:#fff;
+	font-size:1.5em;
+	padding-left:50px;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+	font-size:.875em;
+}
+header h1, h2, h3, h4{
+	font-size:2.25em;
+	font-family: sansita-one, sans-serif;
+	color:#60A69F;
+
+}
+/*Summary Style*/
+#summ{
+	background-color:#D98179;
+	width:100%;
+	height:auto !important;
+	padding-bottom:25px;
+	padding-top:25px;
+	margin-top:25px;
+}
+#logo{
+	margin-top:25px;
+	margin-left:40%;
+}
+#summ article{
+	width:900px;
+	font-family: alex-brush, cursive;
+	font-size:2.25em;
+	color:#fff;
+	margin-left:20%;
+	margin-top:25px;
+	padding-bottom:25px;
+}
+/*Services Style*/
+#services header{
+	margin-left:42%;
+}
+#services #wd{
+	margin-left:175px;
+}
+#projects{
+	width:100%;
+	background-color:#F2F5BD;	
+	float:right;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-right: 260px;
+}
+.placeholder{
+	max-width:300px;
+	height:auto !important;
+	float:right;
+	margin-right:20px;
+	display:inline-block;
+}
+/*About me*/
+#aboutme{
+	width: 100%;
+	float:left;
+	clear:both;
+	margin-top:20px;
+	margin-bottom:25px;
+}
+#aboutme h3{
+	margin-left:42%;
+	margin-top:10px;
+}
+#aboutme article{
+	color:#60A69F;
+	font-size:1.5em;
+	width:900px;
+	float:left;
+	clear:both;
+	background-color:#594F4F;
+	padding-top:100px;
+	padding-bottom:100px;
+	padding-left:20%;
+	padding-right:17%;
+}
+#contact_me{
+	width:100%;
+	margin-top:25px;
+	margin-bottom:200px;
+}
+#contact_me h4{
+	margin-left: 42%;
+
+}
+form{
+	width:600px;
+	height:390px;
+	margin-left:35%;
+	padding-left:10px;
+	box-shadow:none;
+	margin-bottom:10px;
+}
+input.cont-input{
+	width:60%;
+	padding-left:10px;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+	background-color:#60A69F;
+	border:none;}
+.cont-input.message{
+	padding-bottom:250px;
+	background-color:#60A69F;
+	border:none;
+	margin-top:20px;
+}
+#btn{
+	width:62%;
+	background-color:#594F4F;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:20px;
+	border:none;
+}
+#up_btn{
+
+}
+

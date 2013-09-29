@@ -3,13 +3,9 @@ $(function(){
 
 	var links = $('nav li');
 	
-	var home = links.eq(0).html("<a href='main.html'>Home</a>");
-	var services = links.eq(1).html("<a href='#services'>Services</a>");
-	var projects = links.eq(2).html("<a href='#projects'>Projects</a>");
-	var aboutMe = links.eq(3).html("<a href='#about_me'>About Me</a>");
-	var contactMe = links.eq(4).html("<a href='contact_me'><Contact Me</a>");
-	
-	console.log($('#services').offset());
-	
-	var servPos = $('#services');mn
+	var home = links.eq(0).wrap("<a href='main.html'></a>");
+	var services = links.eq(1).wrap("<a href='#services'></a>");
+	var projects = links.eq(2).wrap("<a href='#projects'></a>");
+	var aboutMe = links.eq(3).wrap("<a href='#aboutme'></a>");
+	var contactMe = links.eq(4).wrap("<a href='#contact_me'></a>");
 });

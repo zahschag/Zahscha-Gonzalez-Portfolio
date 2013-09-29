@@ -83,7 +83,7 @@ header h1, h2, h3, h4{
 .placeholder{
 	max-width:15.625%;/*300 / 1920*/
 	height:auto !important;
-	float:right;
+	float:left;
 	margin-right:1.0416%; /*20px/1920px*/
 	display:inline-block;
 }

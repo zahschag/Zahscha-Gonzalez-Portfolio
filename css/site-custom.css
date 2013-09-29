@@ -89,11 +89,12 @@ header h1, h2, h3, h4{
 }
 /*About me*/
 #aboutme{
-	width: 100%;
+	width:100%;
 	float:left;
 	clear:both;
 	margin-top:1.0416%;
 	margin-bottom:1.3020%;
+	padding-right:10.4166%;/*200px/1920px*/
 }
 #aboutme h3{
 	margin-left:42%;

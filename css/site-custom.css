@@ -70,7 +70,7 @@ header h1, h2, h3, h4{
 	margin-left:42%;
 }
 #services #wd{
-	margin-left:10.4166;/*200px / 1920px */
+	margin-left:10.4166%;/*200px / 1920px */
 }
 #projects{
 	width:100%;
@@ -81,7 +81,7 @@ header h1, h2, h3, h4{
 	padding-right: 2.6041%;
 }
 .placeholder{
-	max-width:15.625%;/*300 / 1920*/
+	max-width:10.4166%;/*200px / 1920px */
 	height:auto !important;
 	float:left;
 	margin-left:1.0416%; /*20px/1920px*/

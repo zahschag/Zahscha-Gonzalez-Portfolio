@@ -30,7 +30,7 @@ nav li{
 	display:inline;
 	color:#fff;
 	font-size:1.5em;
-	padding-left:2.6041%;
+	padding-left:2.6041%; /*50px / 1920px*/
 }
 a{
 	text-decoration:none;
@@ -48,7 +48,7 @@ header h1, h2, h3, h4{
 	background-color:#D98179;
 	width:100%;
 	height:auto !important;
-	padding-bottom:1.3020%;
+	padding-bottom:1.3020%;/*25px/1920px*/
 	padding-top:1.3020%;
 	margin-top:1.3020%;
 }
@@ -57,34 +57,34 @@ header h1, h2, h3, h4{
 	margin-left:40%;
 }
 #summ article{
-	width:900px;
+	width:50%;/*960/1920*/
 	font-family: alex-brush, cursive;
 	font-size:2.25em;
 	color:#fff;
 	margin-left:20%;
-	margin-top:25px;
-	padding-bottom:25px;
+	margin-top:1.3020%;
+	padding-bottom:1.3020%;
 }
 /*Services Style*/
 #services header{
 	margin-left:42%;
 }
 #services #wd{
-	margin-left:175px;
+	margin-left:9.1145%;/*175px / 1920px */
 }
 #projects{
 	width:100%;
 	background-color:#F2F5BD;	
 	float:right;
-	padding-top:50px;
-	padding-bottom:50px;
-	padding-right: 260px;
+	padding-top:2.6041%;
+	padding-bottom:2.6041%;
+	padding-right: 2.6041%;
 }
 .placeholder{
-	max-width:300px;
+	max-width:15.625%;/*300 / 1920*/
 	height:auto !important;
 	float:right;
-	margin-right:20px;
+	margin-right:1.0416%; /*20px/1920px*/
 	display:inline-block;
 }
 /*About me*/
@@ -92,55 +92,56 @@ header h1, h2, h3, h4{
 	width: 100%;
 	float:left;
 	clear:both;
-	margin-top:20px;
-	margin-bottom:25px;
+	margin-top:1.0416%;
+	margin-bottom:1.3020%;
 }
 #aboutme h3{
 	margin-left:42%;
-	margin-top:10px;
+	margin-top:0.5208%;/*10px / 1920px*/
 }
 #aboutme article{
 	color:#60A69F;
 	font-size:1.5em;
-	width:900px;
+	width:46.875%;/*900px 1920px*/
 	float:left;
 	clear:both;
 	background-color:#594F4F;
-	padding-top:100px;
-	padding-bottom:100px;
+	padding-top:5.2083%;/*100px/1920px*/
+	padding-bottom:5.2083%;
 	padding-left:20%;
 	padding-right:17%;
 }
 #contact_me{
 	width:100%;
-	margin-top:25px;
-	margin-bottom:200px;
+	margin-top:1.3020%;
+	margin-bottom:10.4166%;/*200px/1920px*/
 }
 #contact_me h4{
 	margin-left: 42%;
 
 }
 form{
-	width:600px;
-	height:390px;
+	width:31.25%;/*600/1920*/
+	height:20.3125%;/*300/1920*/
 	margin-left:35%;
-	padding-left:10px;
+	padding-left:0.5208%;
 	box-shadow:none;
-	margin-bottom:10px;
+	margin-bottom:0.5208%;
 }
 input.cont-input{
 	width:60%;
-	padding-left:10px;
-	padding-top:20px;
-	padding-bottom:20px;
-	margin-top:20px;
-	background-color:#60A69F;
-	border:none;}
-.cont-input.message{
-	padding-bottom:250px;
+	padding-left:0.5208%;
+	padding-top: 1.0416%;
+	padding-bottom:1.0416%;
+	margin-top:1.0416%;
 	background-color:#60A69F;
 	border:none;
-	margin-top:20px;
+}
+.cont-input.message{
+	padding-bottom:13.0283%;/*250px/1920px*/
+	background-color:#60A69F;
+	border:none;
+	margin-top:1.0416%;
 }
 input:focus{
 	border:none;
@@ -148,17 +149,17 @@ input:focus{
 #btn{
 	width:62%;
 	background-color:#594F4F;
-	padding-top:20px;
-	padding-bottom:20px;
-	margin-top:20px;
+	padding-top:1.0416%;
+	padding-bottom:1.0416%;
+	margin-top:1.0416%;
 	border:none;
 }
 
 #scrollUp {
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  border-radius: 10px;
+  bottom: 1.0416%;
+  right: 1.0416%;
+  padding:  0.5208% 1.0416%;
+  border-radius: 0.5208%;
   background: #60A69F;
   color: #fff;
 }

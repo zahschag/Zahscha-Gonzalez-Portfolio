@@ -14,7 +14,7 @@ body{
 	background-color:#D9CCC5;
 }
 #main-container{
-	max-width: 50%;
+	max-width: 100%;
 	position:fixed;
 }
 nav{

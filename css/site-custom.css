@@ -10,7 +10,7 @@ Color Swatches:
 
 body{
 	font-family: actor, sans-serif;
-	max-width: 1800px;
+	max-width: 1920px;
 	background-color:#D9CCC5;
 }
 #main-container{
@@ -20,7 +20,7 @@ body{
 nav{
 	height:auto !important;
 	width: 50%;
-	margin-left:20%;
+	margin-left:28%;
 
 }
 nav ul{ 
@@ -30,7 +30,7 @@ nav li{
 	display:inline;
 	color:#fff;
 	font-size:1.5em;
-	padding-left:50px;
+	padding-left:2.6041%;
 }
 a{
 	text-decoration:none;
@@ -48,12 +48,12 @@ header h1, h2, h3, h4{
 	background-color:#D98179;
 	width:100%;
 	height:auto !important;
-	padding-bottom:25px;
-	padding-top:25px;
-	margin-top:25px;
+	padding-bottom:1.3020%;
+	padding-top:1.3020%;
+	margin-top:1.3020%;
 }
 #logo{
-	margin-top:25px;
+	margin-top:1.3020%;
 	margin-left:40%;
 }
 #summ article{
@@ -142,6 +142,9 @@ input.cont-input{
 	border:none;
 	margin-top:20px;
 }
+input:focus{
+	border:none;
+}
 #btn{
 	width:62%;
 	background-color:#594F4F;
@@ -150,7 +153,13 @@ input.cont-input{
 	margin-top:20px;
 	border:none;
 }
-#up_btn{
 
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #60A69F;
+  color: #fff;
 }
 

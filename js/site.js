@@ -1,7 +1,7 @@
 $(function(){
 
 	$.scrollUp();
-
+  $.fancybox();
 	var links = $('nav li');
 	var backTopbtn = $('button');
 	
@@ -19,7 +19,13 @@ $(function(){
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1500);
+        },{
+          duration:500,
+          specialEasing:{
+            width:"linear",
+            height: "easeOutBounce"
+          }
+        });
         return false;
       }
     }

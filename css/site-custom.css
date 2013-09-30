@@ -10,8 +10,9 @@ Color Swatches:
 
 body{
 	font-family: actor, sans-serif;
-	max-width:2000px;
+	max-width:1920px;
 	background-color:#D9CCC5;
+	overflow-x: hidden;
 }
 #main-container{
 	max-width: 100%;
@@ -43,6 +44,10 @@ header h1, h2, h3, h4{
 	color:#60A69F;
 
 }
+img{
+	max-width:100%;
+	height:auto;
+}
 /*Summary Style*/
 #summ{
 	background-color:#D98179;
@@ -70,7 +75,9 @@ header h1, h2, h3, h4{
 	margin-left:42%;
 }
 #services #wd{
-	margin-left:20%;/*200px / 1920px */
+	width:80%;
+	max-width: 100%;
+	margin-left:13%;/*100px / 1920px */
 }
 #projects{
 	width:100%;
@@ -81,9 +88,9 @@ header h1, h2, h3, h4{
 	padding-right: 2.6041%;
 }
 .placeholder{
-	max-width:10.4166%;/*200px / 1920px */
+	width:15.625%;/*200px / 1920px */
 	height:auto !important;
-	margin-left:1.0416%; /*20px/1920px*/
+	margin-left:3.125%; /*60px/1920px*/
 	display:inline-block;
 }
 /*About me*/
@@ -108,7 +115,7 @@ header h1, h2, h3, h4{
 	padding-top:5.2083%;/*100px/1920px*/
 	padding-bottom:5.2083%;
 	padding-left:20%;
-	padding-right:30%;
+	padding-right:32%;
 }
 #contact_me{
 	width:100%;

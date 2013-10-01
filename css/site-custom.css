@@ -139,15 +139,15 @@ input.cont-input{
 	padding-left:5px;
 	padding-top:10px;
 	padding-bottom:10px;
-	margin-top:1.0416%;
+	margin-top:20px;
 	background-color:#60A69F;
 	border:none;
 }
 .cont-input.message{
-	padding-bottom:13.0283%;/*250px/1920px*/
+	padding-bottom:250px;/*250px/1920px*/
 	background-color:#60A69F;
 	border:none;
-	margin-top:1.0416%;
+	margin-top:20px;
 }
 input:focus{
 	border:none;
@@ -155,9 +155,10 @@ input:focus{
 #btn{
 	width:100%;
 	background-color:#594F4F;
-	padding-top:1.0416%;
-	padding-bottom:1.0416%;
-	margin-top:1.0416%;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	margin-top:20px;
 	border:none;
 }
 

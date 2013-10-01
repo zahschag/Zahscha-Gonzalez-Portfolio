@@ -62,11 +62,11 @@ img{
 	margin-left:40%;
 }
 #summ article{
-	width:50%;/*960/1920*/
+	width:60%;/*960/1920*/
 	font-family: alex-brush, cursive;
 	font-size:2.25em;
 	color:#fff;
-	margin-left:25%;
+	margin-left:20%;
 	margin-top:1.3020%;
 	padding-bottom:1.3020%;
 }
@@ -77,7 +77,7 @@ img{
 #services #wd{
 	width:80%;
 	max-width: 100%;
-	margin-left:13%;/*100px / 1920px */
+	margin-left:15%;/*100px / 1920px */
 }
 #projects{
 	width:100%;
@@ -106,9 +106,9 @@ img{
 	margin-top:0.5208%;/*10px / 1920px*/
 }
 #aboutme article{
-	color:#60A69F;
-	font-size:1.5em;
-	width:50%;/*900px 1920px*/
+	color:#fff;
+	font-size:1.25em;
+	width:60%;/*900px 1920px*/
 	float:left;
 	clear:both;
 	background-color:#594F4F;
@@ -127,18 +127,18 @@ img{
 
 }
 form{
-	width:31.25%;/*600/1920*/
-	height:auto !important;/*300/1920*/
-	margin-left:35%;
+	width:30%;/*600/1920*/
+	height:auto !important;
+	margin-left:32%;
 	padding-left:0.5208%;
 	box-shadow:none;
 	margin-bottom:0.5208%;
 }
 input.cont-input{
-	width:60%;
-	padding-left:0.5208%;
-	padding-top: 1.0416%;
-	padding-bottom:1.0416%;
+	width:100%;
+	padding-left:5px;
+	padding-top:10px;
+	padding-bottom:10px;
 	margin-top:1.0416%;
 	background-color:#60A69F;
 	border:none;
@@ -153,7 +153,7 @@ input:focus{
 	border:none;
 }
 #btn{
-	width:62%;
+	width:100%;
 	background-color:#594F4F;
 	padding-top:1.0416%;
 	padding-bottom:1.0416%;

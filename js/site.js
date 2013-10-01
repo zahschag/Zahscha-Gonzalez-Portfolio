@@ -1,7 +1,6 @@
 $(function(){
 
 	$.scrollUp();
-  $.fancybox();
 	var links = $('nav li');
 	var backTopbtn = $('button');
 	
@@ -30,4 +29,14 @@ $(function(){
       }
     }
   });
+  
+  $('.placeholder').fancybox({
+      openEffect : 'fade',
+      closeEffect : 'fade',
+      closeBtn : true,
+      arrows : true,
+      nextClick: true,
+      
+  });
+
 });

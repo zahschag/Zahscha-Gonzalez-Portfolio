@@ -12,12 +12,13 @@ $(function(){
 	var contactMe = links.eq(4).wrap("<a href='#contact_me'></a>");
 
 /*Fancy box plug in begins*/
-  $('.placeholder').fancybox({
-      openEffect : 'fade',
-      closeEffect : 'fade',
+  $('a.placeholder').fancybox({
+      openEffect : 'none',
       closeBtn : true,
       arrows : true,
+      overlayShow : false
   });
+
 /*Smooth scrolling begins*/
 //Targets the attr href that is selected
 //added a click function

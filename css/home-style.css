@@ -1,6 +1,57 @@
 body{
-  width;960px;
+  	font-family: actor, sans-serif;
+	background-color:#D9CCC5;
+	overflow-x: hidden;
 }
 #container{
-  margin-left:50%;
+  width:1280px;
 }
+#subscribe{
+	max-width:100%;
+	margin-top:100px;
+}
+h2, h3{
+	font-size:1.5em;
+	margin-left:30%;
+}
+h2{
+	margin-left:40%;
+}
+.cont-input{
+	width:200px;
+	padding-right:100px;
+	margin-left: 10%;
+}
+.btn{
+	color:white;
+	margin-left:22%;
+}
+/*Media Querie*/
+
+@media only screen and (min-width:1441px) and (max-width:1921px){
+	#container{
+		width: 1880px;
+	}
+	img{
+		margin-left:5%;
+	}
+	#subscribe{
+		margin-top:100px;
+	}
+	h2, h3{
+		margin-left:37.5%;
+	}
+	h2{
+		margin-left:45%;
+	}
+	.cont-input{
+		width:200px;
+		padding-right:100px;
+		margin-left:5%;
+
+	}
+	.btn{
+		margin-left:15%;
+	}
+}
+

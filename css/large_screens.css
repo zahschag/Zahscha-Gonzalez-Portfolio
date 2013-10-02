@@ -1,0 +1,16 @@
+@import 'site-custom.css';
+@import url('site-custom.css');
+
+@media(min-width:1281px) and (max-width:1921px){
+	#main-container{
+		width:1880px;
+	}
+	nav{
+		width:50%; /*940px / 1880px*/
+		margin-left:30%; /*235px/940px*/
+	}
+	#services{
+		width:80%;
+		margin-left:40%;
+	}
+}

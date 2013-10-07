@@ -20,7 +20,7 @@ body{
 nav{
 	height:auto !important;
 	width: 55%;
-	margin-left:29%;
+	margin-left:30%;
 
 }
 nav ul{ 
@@ -58,20 +58,20 @@ img{
 }
 #logo{
 	margin-top:1.3020%;
-	margin-left:41%;
+	margin-left:42%;
 }
 #summ article{
 	width:60%;/*960/1920*/
 	font-family: alex-brush, cursive;
 	font-size:2.25em;
 	color:#fff;
-	margin-left:21%;
+	margin-left:22%;
 	margin-top:1.3020%;
 	padding-bottom:1.3020%;
 }
 /*Services Style*/
 #services header{
-	margin-left:42%;
+	margin-left:43%;
 }
 #services #wd{
 	width:80%;
@@ -107,7 +107,7 @@ img{
 	margin-bottom:1.3020%;
 }
 #about_me h3{
-	margin-left:42%;
+	margin-left:43%;
 	margin-top:0.5208%;/*10px / 1920px*/
 }
 #about_me article{
@@ -129,13 +129,13 @@ img{
 	margin-bottom:10.4166%;/*200px/1920px*/
 }
 #contact_me h4{
-	margin-left: 42%;
+	margin-left: 43%;
 
 }
 form{
 	width:30%;/*600/1920*/
 	height:auto !important;
-	margin-left:32%;
+	margin-left:33%;
 	padding-left:0.5208%;
 	box-shadow:none;
 	margin-bottom:0.5208%;

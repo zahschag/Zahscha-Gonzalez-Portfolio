@@ -92,6 +92,12 @@ img{
 	margin-left:3.125%; /*60px/1920px*/
 	display:inline-block;
 }
+#projects p{
+	color:#D98179;
+	font-family: actor, sans-serif;
+	margin-left:40%;
+
+}
 /*About me*/
 #about_me{
 	width:100%;
@@ -118,7 +124,8 @@ img{
 }
 #contact_me{
 	width:100%;
-	margin-top:1.3020%;
+	float:left;
+	clear:both;
 	margin-bottom:10.4166%;/*200px/1920px*/
 }
 #contact_me h4{
@@ -174,12 +181,12 @@ input:focus{
 }
 
 /*Media Queries*/
-
+/*Screen size */
 @media only screen and (min-width:1441px) and (max-width:1921px){
 	nav{
 		width:50%; /*940px / 1880px*/
 		margin-left:35%; /*235px/940px*/
-	},
+	}
 	#summ{
 	background-color:#D98179;
 	width:100%;
@@ -212,3 +219,4 @@ input:focus{
 		padding-left:20%;
 	}
 }
+

@@ -9,11 +9,8 @@
     <link rel="stylesheet" type="text/css" href="css/site-custom.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-buttons.css">
-    <meta name="viewport" content="width-device-width, initial-scale= 1.0, maximum-scale=1.0">
-
-    <!--<link href="css/main.css" rel="stylesheet">-->
+    <meta name="viewport" content="initial-scale= 1.0, maximum-scale=1.0">
     <script src="//use.edgefonts.net/alex-brush;actor:n4;sansita-one.js"></script> 
-    <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div id="main_container" class="selected">
@@ -74,6 +71,7 @@
       <a class="placeholder fancybox-buttons"  rel="group1" href="./images/wordlsurf_large.png" title="World Surf website"><img src="./images/worldsurf_thumb.jpg" alt="world surf website"/></a>
       <a class="placeholder fancybox-buttons"  rel="group1" href="./images/zgmakeup_large.png" title="ZG Makeup Art portfolio"><img src="./images/zgmakeuphome_thumb.jpg" alt="ZG makeup art home page thumbnail"/></a>
       <a class="placeholder fancybox-buttons"  rel="group1" href="./images/wzmg_large.png" title="WZMG Radio Station website created for "><img src="./images/wzmg_thumb.jpg" alt="WZMG radio station website"/></a> 
+      <p>More samples coming soon</p>
     </div><!--Projects div end-->
 <div id="spacer"></div>
     <div id="about_me"><!--About me div Starts-->
@@ -88,14 +86,14 @@
     <div id="contact_me">
     <h4>Contact</h4>
       
-      <form method="post" id="email_form"> <!--Form begins here-->
-        <input class="cont-input" type="text" name="name" value="Name" placehoder="Name"/>
+      <form method="post" action="send_email.php"> <!--Form begins here-->
+        <input class="cont-input" type="text" name="first_name" value="Name" placehoder="Name"/>
     <br>
-    <input id ='q' class="cont-input" type="email" name="email" value="Email" placeholder="Email" required=required/>
+    <input id ='q' class="cont-input" type="email" name="email_address" value="Email" placeholder="Email" required=required/>
     <br>
     <input id='message'class="cont-input message" type="text" name="message" value="Message" Placeholder="Message" required =required/>
   <br>
-  <input class="btn" type="button" name="submit" value="Submit"/>
+  <a href="php/send_email.php"><input class="btn" type="button" name="submit" value="Submit"/></a>
 </form><!--End of form-->
 </div>
 <footer>
@@ -119,6 +117,7 @@
   </footer>
 </div><!--end of main container-->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js" ></script>
 <script type="text/javascript" src="js/jquery.scrollUp.js"></script>

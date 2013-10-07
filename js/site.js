@@ -10,7 +10,8 @@ $(function(){
 	var projects = links.eq(2).wrap("<a href='#projects'></a>");
 	var aboutMe = links.eq(3).wrap("<a href='#about_me'></a>");
 	var contactMe = links.eq(4).wrap("<a href='#contact_me'></a>");
-
+  console.log($('#about_me').offset().top);
+  console.log($('#contact_me').offset().top);
 /*Fancy box plug in begins*/
   $('a.placeholder').fancybox({
       openEffect : 'none',

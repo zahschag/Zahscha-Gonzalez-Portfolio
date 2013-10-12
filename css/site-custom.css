@@ -269,6 +269,7 @@ footer{
 	}
 		#services #wd img{
 		max-width:40%;
+		height:auto !important;
 	}
 }
 

@@ -6,6 +6,14 @@ Color Swatches:
 #F2F5BD //Cream
 #D9CCC5 //Muted Cream
 #D98179 // Muted red
+/////////////////////////////
+
+#3DBB7E
+#A3CD39
+#FBAC1D
+#F96C1E
+#EE4036
+
 ********************/
 
 body{
@@ -71,13 +79,16 @@ img{
 }
 /*Services Style*/
 #services header{
-	margin-left:43%;
+	margin-left:43.5%;
 }
 #services #wd{
 	width:80%;
-	max-width: 100%;
+<<<<<<< HEAD
+	margin-left:16.75%;/*100px / 1920px */
+=======
 	margin-left:18%;/*100px / 1920px */
 	margin-left:16.5%;/*100px / 1920px */
+>>>>>>> 3c9acd010c4128126d2c14e0808325154a65f071
 }
 #projects{
 	width:100%;
@@ -171,7 +182,10 @@ input:focus{
 	margin-left:2px;
 	border:none;
 }
-
+footer{
+	margin-bottom:2%;
+	margin-left:%;
+}
 #scrollUp {
   bottom: 1.0416%;
   right: 1.0416%;
@@ -182,7 +196,7 @@ input:focus{
 }
 
 /*Media Queries*/
-/*Screen size */
+/*Screen size 1440px */
 @media only screen and (min-width:1441px) and (max-width:1921px){
 	nav{
 		width:50%; /*940px / 1880px*/
@@ -217,13 +231,15 @@ input:focus{
 	}
 	#about_me article{
 		width:50%;
+		line-height:1.5em;
 		padding-left:20%;
 	}
 }
+/*Screen size max width 1024 x 768px*/
 @media only screen and (min-width:1023px) and (max-width:1281px){
 	nav{
 		width:50%; /*940px / 1880px*/
-		margin-left:35%; /*235px/940px*/
+		margin-left:29.25%; /*235px/940px*/
 	}
 	#summ{
 	background-color:#D98179;
@@ -235,27 +251,35 @@ input:focus{
 	}
 	#logo{
 	margin-top:1.3020%;
-	margin-left:45%;
+	margin-left:42.75%;
 	}
 	#summ article{
+	font-size:2em;
 	width:60%;/*960/1920*/
-	margin-left:30%;
+	margin-left:25%;
 	margin-top:1.3020%;
 	padding-bottom:1.3020%;
 	}
 	#services header, #about_me h3 ,#contact_me h4{
-	margin-left:46%;
+	margin-left:45%;
 	}	
 	#services #wd{
-	margin-left:25%;
+	margin-left:15%;
 	}
 	form{
-		padding-left:3%;
+		padding-left:2%;
 	}
 	#about_me article{
-		width:50%;
-		padding-left:20%;
+		line-height:1.5em;/*one and a half space*/
+		font-size:1em; /*16px*/
+		width:60%;
+		padding-left:23%;
 	}
 
+}
+@media only screen and(min-width:768px) and (max-width:1023px){
+	nav{
+		margin-left:10%;
+	}
 }
 

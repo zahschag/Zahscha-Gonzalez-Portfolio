@@ -252,6 +252,9 @@ footer{
 	#services #wd{
 	margin-left:15%;
 	}
+	#services #wd img{
+		max-width:40%;
+	}
 	form{
 		padding-left:2%;
 	}

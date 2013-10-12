@@ -266,10 +266,8 @@ footer{
 @media only screen and(min-width:768px) and (max-width:1024px){
 	nav{
 		float:left;
+		margin-left:0px;
 	}
-		#services #wd{
-		max-width:50%;
-	
-	}
+		
 }
 

@@ -252,9 +252,6 @@ footer{
 	#services #wd{
 	margin-left:15%;
 	}
-	#services #wd img{
-		max-width:40%;
-	}
 	form{
 		padding-left:2%;
 	}
@@ -269,6 +266,9 @@ footer{
 @media only screen and(min-width:768px) and (max-width:1023px){
 	nav{
 		margin-left:10%;
+	}
+		#services #wd img{
+		max-width:40%;
 	}
 }
 

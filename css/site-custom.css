@@ -267,9 +267,9 @@ footer{
 	nav{
 		margin-left:10%;
 	}
-		#services #wd img{
-		max-width:40%;
-		height:auto !important;
+		#services #wd{
+		max-width:50%;
+	
 	}
 }
 

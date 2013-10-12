@@ -76,7 +76,11 @@ img{
 #services #wd{
 	width:80%;
 	max-width: 100%;
+<<<<<<< HEAD
 	margin-left:18%;/*100px / 1920px */
+=======
+	margin-left:16.5%;/*100px / 1920px */
+>>>>>>> 88e74c1ee415c75742e185590e143a957cb93316
 }
 #projects{
 	width:100%;

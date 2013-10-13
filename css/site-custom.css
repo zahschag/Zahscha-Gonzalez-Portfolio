@@ -1,16 +1,16 @@
 /**************
 Color Swatches:
 
-#594F4F //Brown
-#60A69F //Aqua
-#F2F5BD //Cream
-#D9CCC5 //Muted Cream
-#D98179 // Muted red
+#3DBB7E // R=61 G=187 B=126 //AQUA
+#A3CD39 // R=163 G=205 B=57 //LIME GREEN
+#FBAC1D // R=251 G=172 B=29 //SUNFLOWER
+#F96C1E // R=249 G=108 B=30 // PUMPKIN
+#EE4036 // R=238 G=64 B=54 // RED-ORANGE
 ********************/
-
+@import url(http://fonts.googleapis.com/css?family=Rambla:400,700);
 body{
 	font-family: actor, sans-serif;
-	background-color:#D9CCC5;
+	background-color:#FFF;
 	overflow-x: hidden;
 }
 #main-container{
@@ -28,7 +28,7 @@ nav ul{
 }
 nav li{
 	display:inline;
-	color:#fff;
+	color:#3DBB7E;
 	font-size:1.5em;
 	padding-left:2.6041%; /*50px / 1920px*/
 }
@@ -40,7 +40,7 @@ a{
 header h1, h2, h3, h4{
 	font-size:2.25em;
 	font-family: sansita-one, sans-serif;
-	color:#60A69F;
+	color:#A3CD39;
 
 }
 img{
@@ -49,7 +49,7 @@ img{
 }
 /*Summary Style*/
 #summ{
-	background-color:#D98179;
+	background-color:#EE4036;
 	width:100%;
 	height:auto !important;
 	padding-bottom:1.3020%;/*25px/1920px*/
@@ -58,16 +58,26 @@ img{
 }
 #logo{
 	margin-top:1.3020%;
-	margin-left:42%;
+	margin-left:41.25%;
 }
+
 #summ article{
 	width:60%;/*960/1920*/
-	font-family: alex-brush, cursive;
-	font-size:2.25em;
+	font-family: rambla, sans-serif;
+	font-size:2em;
 	color:#fff;
-	margin-left:22%;
+	margin-left:20%;
 	margin-top:1.3020%;
 	padding-bottom:1.3020%;
+}
+/*Hover shapes*/
+.circle{
+	width:270px;
+	height:270px;
+	background:#3DBB7E;
+	-moz-border-radius:70px;
+	-webkit-border-radius:70px;
+	border-radius:70px;
 }
 /*Services Style*/
 #services header{
@@ -79,7 +89,7 @@ img{
 }
 #projects{
 	width:100%;
-	background-color:#F2F5BD;	
+	background-color:#FBAC1D;	
 	float:left;
 	padding-top:2.6041%;
 	padding-bottom:2.6041%;
@@ -92,9 +102,9 @@ img{
 	display:inline-block;
 }
 #projects p{
-	color:#D98179;
+	color:#EE4036;
 	font-family: actor, sans-serif;
-	margin-left:40%;
+	margin-left:42%;
 
 }
 /*About me*/
@@ -115,7 +125,7 @@ img{
 	width:60%;/*900px 1920px*/
 	float:left;
 	clear:both;
-	background-color:#594F4F;
+	background-color:#F96C1E;
 	padding-top:5.2083%;/*100px/1920px*/
 	padding-bottom:5.2083%;
 	padding-left:20%;
@@ -145,12 +155,12 @@ input.cont-input{
 	padding-top:10px;
 	padding-bottom:10px;
 	margin-top:20px;
-	background-color:#60A69F;
+	background-color:#3DBB7E;
 	border:none;
 }
 .cont-input.message{
 	padding-bottom:250px;/*250px/1920px*/
-	background-color:#60A69F;
+	background-color:#3DBB7E;
 	border:none;
 	margin-top:20px;
 }
@@ -158,10 +168,10 @@ input:focus{
 	border:none;
 }
 .btn{
-	color:#60A69F;
+	color:#3DBB7E;
 	font-size:1.5em;
 	width:100%;
-	background-color:#594F4F;
+	background-color:#F96C1E;
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-right:10px;
@@ -178,8 +188,8 @@ footer{
   right: 1.0416%;
   padding:  0.5208% 1.0416%;
   border-radius: 0.5208%;
-  background: #60A69F;
-  color: #fff;
+  background:#3DBB7E;
+  color: #F96C1E;
 }
 
 /*Media Queries*/
@@ -190,7 +200,6 @@ footer{
 		margin-left:35%; /*235px/940px*/
 	}
 	#summ{
-	background-color:#D98179;
 	width:100%;
 	height:auto !important;
 	padding-bottom:1.3020%;/*25px/1920px*/
@@ -211,7 +220,7 @@ footer{
 	margin-left:46%;
 	}	
 	#services #wd{
-	margin-left:25.75%;
+	margin-left:25%;
 	}
 	form{
 		padding-left:3%;
@@ -219,21 +228,22 @@ footer{
 	#about_me article{
 		width:60%;
 		line-height:1.5em;
+		padding-left:35%;
 	}
 }
 /*Screen size max width 1024 x 768px*/
 @media only screen and (min-width:1023px) and (max-width:1281px){
 	nav{
 		width:50%; /*940px / 1880px*/
-		margin-left:29.25%; /*235px/940px*/
+		margin-left:29.5%; /*235px/940px*/
 	}
 	#summ{
-	background-color:#D98179;
 	width:100%;
 	height:auto !important;
 	padding-bottom:1.3020%;/*25px/1920px*/
 	padding-top:1.3020%;
 	margin-top:1.3020%;
+	font-size:0.75em;
 	}
 	#logo{
 	margin-top:1.3020%;
@@ -246,6 +256,11 @@ footer{
 	margin-top:1.3020%;
 	padding-bottom:1.3020%;
 	}
+	#projects p{
+	color:#EE4036;
+	font-family: actor, sans-serif;
+	margin-left:41.75%;
+}
 	#services header, #about_me h3 ,#contact_me h4{
 	margin-left:45%;
 	}	
@@ -263,11 +278,9 @@ footer{
 	}
 
 }
-@media only screen and(min-width:768px) and (max-width:1024px){
+@media only screen and(min-device-width:768px) and (max-device-width:1024px){
 	nav{
-		float:left;
-		margin-left:0px;
+		margin-left:10%;
 	}
-		
 }
 

@@ -1,20 +1,24 @@
 <?php
 
-$name = $_POST['first_name'];
-$email = $_POST['email_address'];
-$message = $_POST['message'];
-$formcontent = "From: $name \n Message: $message";
-$recipient = "zahscha.gonzalez@gmail.com<script type='text/javascrript'>
-(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");
-	l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');
-	if(a){s='';r=parseInt(a.substr(0,2),16);
-	for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;
-		s+=String.fromCharCode(c);}
-		s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
-</script>";
 
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You";
-?>
+/* All form fields are automatically passed to the PHP script through the array $HTTP_POST_VARS. */
+ $email = $HTTP_POST_VARS['email'];
+ $subject = $HTTP_POST_VARS['subject'];
+ $message = $HTTP_POST_VARS['message'];
+ 
+/* PHP form validation: the script checks that the Email field contains a valid email address and the Subject field isn't empty. preg_match performs a regular expression match. It's a very powerful PHP function to validate form fields and other strings - see PHP manual for details. */
+ if (!preg_match("/\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/", $email)) {
+   echo "<h4>Invalid email address</h4>";
+   echo "<a href='javascript:history.back(1);'>Back</a>";
+ } elseif ($subject == "") {
+   echo "<h4>No subject</h4>";
+   echo "<a href='javascript:history.back(1);'>Back</a>";
+ }
+ 
+/* Sends the mail and outputs the "Thank you" string if the mail is successfully sent, or the error string otherwise. */
+ elseif (mail($email,$subject,$message)) {
+   echo "<h4>Thank you for sending email</h4>";
+ } else {
+   echo "<h4>Can't send email to $email</h4>";
+ }
+ ?>

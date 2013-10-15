@@ -13,9 +13,9 @@
     $headers  = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= "From: $from";
-    $ok = mail($to, $subject, $body, $headers);
-    if($ok)
-        echo '1';
+    $email_sent = mail($to, $subject, $body, $headers);
+    if($email_sent)
+        echo 'Thank you! I have recieved your message and will contact you shortly';
     else
-        echo '0';
+        echo 'Error, your message has failed, please try again';
 ?>

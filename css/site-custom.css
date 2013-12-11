@@ -20,7 +20,7 @@ body{
 nav{
 	height:auto !important;
 	width: 55%;
-	margin-left:30%;
+	margin-left:33%;
 
 }
 nav ul{ 
@@ -99,6 +99,7 @@ img{
 	width:15.625%;/*200px / 1920px */
 	height:auto !important;
 	margin-left:3.125%; /*60px/1920px*/
+	margin-bottom:1%;
 	display:inline-block;
 }
 #projects p{

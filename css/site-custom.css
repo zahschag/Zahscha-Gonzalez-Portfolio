@@ -194,11 +194,31 @@ footer{
 }
 
 /*Media Queries*/
-/*Screen size 1440px */
-@media only screen and (min-width:1441px) and (max-width:1921px){
+/*Screen size 1440px to 1600px*/
+@media only screen and (min-width:1441px) and (max-width: 1601px){
+	nav{
+		width:50%; /*940px / 1880px*/
+		margin-left:31%; /*235px/940px*/
+	}
+	#logo{
+	margin-top:1.3020%;
+	margin-left:39%;
+	}
+	#services header, #about_me h3 ,#contact_me h4{
+	margin-left:40%;
+	}
+	#services #wd{
+	margin-left:17%;
+	}
+}
+/*Screen size up to 1920 * 800px*/
+@media only screen and (min-width:1602px) and (max-width:1921px){
 	nav{
 		width:50%; /*940px / 1880px*/
 		margin-left:35%; /*235px/940px*/
+	}
+	#services #wd{
+	margin-left:10%;
 	}
 	#summ{
 	width:100%;
@@ -221,6 +241,7 @@ footer{
 	margin-left:43%;
 	}	
 	#services #wd{
+	width:100%;
 	margin-left:24%;
 	}
 	form{
@@ -233,7 +254,7 @@ footer{
 	}
 }
 /*Screen size max width 1024 x 768px*/
-@media only screen and (min-width:1023px) and (max-width:1281px){
+@media only screen and (min-width:1023px) and (max-width:1279px){
 	nav{
 		width:50%; /*940px / 1880px*/
 		margin-left:29.5%; /*235px/940px*/
@@ -284,4 +305,5 @@ footer{
 		margin-left:10%;
 	}
 }
+
 

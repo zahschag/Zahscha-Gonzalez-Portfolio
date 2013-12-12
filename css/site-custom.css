@@ -209,19 +209,19 @@ footer{
 	}
 	#logo{
 	margin-top:1.3020%;
-	margin-left:45%;
+	margin-left:42%;
 	}
 	#summ article{
-	width:60%;/*960/1920*/
-	margin-left:30%;
+	width:100%;/*960/1920*/
+	margin-left:26%;
 	margin-top:1.3020%;
 	padding-bottom:1.3020%;
 	}
 	#services header, #about_me h3 ,#contact_me h4{
-	margin-left:46%;
+	margin-left:43%;
 	}	
 	#services #wd{
-	margin-left:25%;
+	margin-left:24%;
 	}
 	form{
 		padding-left:3%;
@@ -229,7 +229,7 @@ footer{
 	#about_me article{
 		width:60%;
 		line-height:1.5em;
-		padding-left:35%;
+		padding-left:20%;
 	}
 }
 /*Screen size max width 1024 x 768px*/

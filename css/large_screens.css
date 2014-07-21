@@ -3,7 +3,7 @@
 
 @media(min-width:1281px) and (max-width:1921px){
 	#main-container{
-		width:1880px;
+		box-sizing:box-border;
 	}
 	nav{
 		width:50%; /*940px / 1880px*/

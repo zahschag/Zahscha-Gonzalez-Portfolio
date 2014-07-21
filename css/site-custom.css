@@ -8,6 +8,7 @@ Color Swatches:
 #EE4036 // R=238 G=64 B=54 // RED-ORANGE
 ********************/
 @import url(http://fonts.googleapis.com/css?family=Rambla:400,700);
+*{box-sizing: border-box;}
 body{
 	font-family: actor, sans-serif;
 	background-color:#FFF;

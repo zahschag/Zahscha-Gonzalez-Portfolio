@@ -7,7 +7,7 @@
 	}
 	nav{
 		width:50%; /*940px / 1880px*/
-		margin-left:30%; /*235px/940px*/
+		margin:0 auto; /*235px/940px*/
 	}
 	#services{
 		width:80%;
